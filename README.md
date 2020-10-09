@@ -26,6 +26,8 @@ cypress run --browser {{browser}} --spec .\cypress\integration\commbank\home_spe
 
 
 # API Tests: 
+The OXFORD Dictionary API app_id and app_key is stored in the cypress.env.json file. Stored this here as they will be different to each users. While making API Calls, the test specs retrieves those details from env file and uses them on the request. 
+
 1. First Test will make a request to check the origin of word. 
    On the Response received, if the test is run in Browser, I have parsed the body of the JSON Response and you can see the origin of the word printed on the Console of the Dev    Tools. 
 2. Second and thord tests are basically stubbing out the response to have the response code 404 and 400. I have a assertion in place to check the response codes match the expected output. 
