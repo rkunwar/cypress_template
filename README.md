@@ -3,10 +3,10 @@ Cypress Test for Website and API.
 
 
 # Installations
-1. Node JS is required. 
+1. Node JS and Cypress is Required.
 2. Navigate to the /commbank_assignment and hit npm i to install the required packages. I have excluded the node_modules as it makes the repo unnecessarily big. 
 
-
+Alternatively, if you have Cypress Test Runner installed, then the test can be run by extracting the source code to local and run from Test Runner with 'cypress open' command. 
 
 # UI Tests: 
 Implementation Details: 
