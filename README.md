@@ -38,6 +38,6 @@ To run test for API:
 cypress run --spec .\cypress\integration\commbank\api_specs.js
 
 # Known Problems
-There could be issues while running the tests in Firebox Browser with version < 80. This is because of the slowness of the Firefox browser to do the Garbage Collection cleanup between the tests. To mitigate i have disabled the GC Collection on Global Cypress Configs and my tests were running on Firefox Browser version 81. 
+There could be issues while running the tests in Firefox Browser with version < 80. This is because of the slowness of the Firefox browser to do the Garbage Collection cleanup between the tests. To mitigate i have disabled the GC Collection on Global Cypress Configs and my tests were running on Firefox Browser version 81. 
 
 
