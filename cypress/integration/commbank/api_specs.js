@@ -70,7 +70,7 @@ it('Mock the Response Code to 400', ()=>{
 it("Translate Word into French", () =>{
     cy.request({
         method: 'POST',
-        url: 'https://google-translate1.p.rapidapi.com/language/translate/v2', // baseUrl will be prepended to this url
+        url: 'https://google-translate1.p.rapidapi.com/language/translate/v2', 
         headers : {
             "x-rapidapi-host": rapidapi_host,
 	        "x-rapidapi-key": rapidapi_key,
@@ -96,7 +96,7 @@ it('Mock the Response Code to 400', ()=>{
     cy.server();
     cy.route({
         method: 'POST',
-        url: 'https://google-translate1.p.rapidapi.com/language/translate/v2', // baseUrl will be prepended to this url
+        url: 'https://google-translate1.p.rapidapi.com/language/translate/v2', 
         headers : {
             "x-rapidapi-host": rapidapi_host,
 	        "x-rapidapi-key": rapidapi_key,
@@ -126,7 +126,7 @@ it('Mock the Response Code to 404', ()=>{
     cy.server();
     cy.route({
         method: 'POST',
-        url: 'https://google-translate1.p.rapidapi.com/language/translate/v2', // baseUrl will be prepended to this url
+        url: 'https://google-translate1.p.rapidapi.com/language/translate/v2', 
         headers : {
             "x-rapidapi-host": rapidapi_host,
 	        "x-rapidapi-key": rapidapi_key,
