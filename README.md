@@ -32,6 +32,8 @@ The OXFORD Dictionary API app_id and app_key is stored in the cypress.env.json f
    On the Response received, if the test is run in Browser, I have parsed the body of the JSON Response and you can see the origin of the word printed on the Console of the Dev    Tools. 
 2. Second and thord tests are basically stubbing out the response to have the response code 404 and 400. I have a assertion in place to check the response codes match the expected output. 
 
+3. Third Test will make a request to translate the word to French and the subsequent calls will be to mock the repsonses to 400 and 404. 
+
 To run test for API: 
 cypress run --spec .\cypress\integration\commbank\api_specs.js
 
