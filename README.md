@@ -19,7 +19,7 @@ This spec file has tests in three parts which is basically done for 3 Viewports 
 
 Test will run through Each menu items in Nav Bar and verify after the page is loaded looks for the title as Assertions. 
 
-To run the test for CommBank Browser Navigation Tab - Replace the Browser with 'firefox' or 'chrome': 
+To run the test for CommBank Browser Navigation Tab - Replace the {{browser}} with 'firefox' or 'chrome': 
 Navigate to /commbank_assignment and hit: 
 
 cypress run --browser {{browser}} --spec .\cypress\integration\commbank\home_specs.js 
