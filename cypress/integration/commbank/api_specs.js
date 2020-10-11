@@ -127,7 +127,7 @@ describe('Oxford API Calls', () => {
             body: {
                 "source": "en",
                 "q": "Test",
-                "target": "far"
+                "target": "fr"
             }
            
         }).then((resp) => {
