@@ -16,8 +16,7 @@
     cy.get('#password').type(`${password}{enter}`)
     cy.get('#login-btn').click()
   })
-//
-//
+  
 // -- This is a child command --
  Cypress.Commands.add("filters", (options) => { 
     cy.get('.filters').within(()=>{ 
