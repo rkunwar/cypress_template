@@ -1,14 +1,10 @@
 
 {
               
-    "baseUrl":"https://www.commbank.com.au/",
+    "baseUrl":"https://bstackdemo.com/",
     "viewportWidth": 1920,
     "viewportHeight": 1080,
     "video": true,
-    "firefoxGcInterval": {
-    "runMode": null,
-    "openMode": null
-     },
     "numTestsKeptInMemory": 50
 }
 

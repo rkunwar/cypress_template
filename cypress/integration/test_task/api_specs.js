@@ -1,5 +1,51 @@
-describe('Oxford API Calls', () => {
+describe('API Calls', () => {
    
+
+    it('successfully makes a Login Request', ()=> {
+        cy.request({
+            method: 'POST',
+            url: '/api/signin', 
+            body: {
+                "userName":"demouser",
+                "password":"testingisfun99"
+            }  
+        }).then((resp) => {
+            console.log(resp.body)
+            expect(resp.status).to.eq(200);      
+        })
+    })
+
+    it('successfully creates an Samsung order', ()=>{
+        
+    })
+
+
+
+
+
+
+
+
+
+
+    /*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     const appid = Cypress.env('app_id');
     const appkey = Cypress.env('app_key');
     const rapidapi_host = Cypress.env('x-rapidapi-host');
@@ -135,7 +181,7 @@ describe('Oxford API Calls', () => {
             console.log(resp.body.message);
                 
         });
-    })
+    }) */
     
     })
       
